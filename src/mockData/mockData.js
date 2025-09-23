@@ -1,0 +1,230 @@
+const products = [{
+    id: 1,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/dress.jpg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+},
+{
+    id: 2,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/107314-wedding-dresses-for-men-10.jpeg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+},
+{
+    id: 3,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/book.jpg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+},
+{
+    id: 4,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/car.jpg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+},
+{
+    id: 5,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/cmaera.jpg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+},
+{
+    id: 6,
+    title: "On Sale Product Title",
+    rating: 4,
+    originalPrice: "R250.59",
+    salePrice: "R175.59",
+    image: "/src/assets/th.jpg",
+    description:
+        "This is a detailed product description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    additionalDetails:
+        "Here are some additional details about the product. For instance, it's made from 100% organic cotton, it's machine washable, and it comes in three different sizes: S, M, and L.",
+    reviews: [
+        {
+            id: 1,
+            image: "/src/assets/Carpentry.jpg",
+            author: "lightspeed (verified owner)",
+            date: "9 May 2023",
+            rating: 4,
+            text: "The LSX Tour Operator plugin is a comprehensive WordPress plugin designed specifically for tour operators and travel agencies. As a language model, I cannot provide personal opinion or experience with the product, but I can give you an overview of the plugin based on its features and user feedback.",
+        },
+        {
+            id: 2,
+            image: "/src/assets/decoration.jpg",
+            author: "John Doe",
+            date: "12 June 2023",
+            rating: 5,
+            text: "Absolutely love this product! The quality is amazing and the price is unbeatable. Highly recommend!",
+        },
+        {
+            id: 3,
+            image: "/src/assets/download (1).jpg",
+            author: "Jane Smith",
+            date: "15 June 2023",
+            rating: 3,
+            text: "It's a good product, but the size was a little off. Still, it's a great value for the price.",
+        },
+    ],
+}
+];
+export default products;
